@@ -164,7 +164,7 @@ export default function LuxuryFeatureSection() {
 
         {/* Feature Rail */}
         <div className="relative z-10">
-          <div className="relative h-20">
+          <div className="relative h-20 px-2">
             <div
               className="absolute left-3 right-3 top-8 h-px rounded-full"
               style={{
