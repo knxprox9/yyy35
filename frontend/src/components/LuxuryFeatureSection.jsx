@@ -26,6 +26,7 @@ const Node = ({ icon: Icon, label, desc, color, backContent, size = "md" }) => {
     sm: { box: "w-12 h-12", icon: "w-4 h-4", backIcon: "w-3.5 h-3.5" },
     md: { box: "w-14 h-14", icon: "w-4 h-4", backIcon: "w-3.5 h-3.5" },
     lg: { box: "w-[72px] h-[72px]", icon: "w-[20px] h-[20px]", backIcon: "w-4 h-4" },
+    xl: { box: "w-20 h-20", icon: "w-[22px] h-[22px]", backIcon: "w-4 h-4" },
   };
   const sizes = sizeMap[size] || sizeMap.md;
 
