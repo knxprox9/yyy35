@@ -172,7 +172,7 @@ export default function LuxuryFeatureSection() {
                   "linear-gradient(to right, rgb(56,189,248), rgb(139,92,246), rgb(16,185,129), rgb(249,115,22))",
               }}
             />
-            <div className="absolute left-3 right-3 top-8 -translate-y-1/2 grid grid-cols-3 gap-4">
+            <div className="absolute left-3 right-3 top-8 -translate-y-1/2 grid grid-cols-3 gap-5">
               {/* Three nodes */}
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Layers} label="فئات" desc="خيارات واسعة" color={colors.purple} />
