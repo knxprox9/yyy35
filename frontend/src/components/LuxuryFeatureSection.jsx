@@ -204,7 +204,7 @@ export default function LuxuryFeatureSection() {
               </div>
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Sparkles} label="باقات" desc="خطط مرنة" color={colors.orange} />
-                <div className="text-[11px] font-semibold text-slate-800 truncate">باقات</div>
+                <div className="text-[10px] font-semibold text-slate-800 truncate">باقات</div>
               </div>
             </div>
           </div>
