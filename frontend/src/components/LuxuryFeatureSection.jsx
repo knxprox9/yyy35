@@ -9,7 +9,7 @@ import { cn } from "../lib/utils";
 const railGradient = "bg-gradient-to-r from-sky-400/10 via-violet-400/10 to-orange-400/10";
 
 // Node: circular semi-3D badge (tilt decorations + independent flip content)
-const Node = ({ icon: Icon, label, desc, color, backContent }) => {
+const Node = ({ icon: Icon, label, desc, color, backContent, size = "md" }) => {
   const [active, setActive] = useState(false);
   const timerRef = useRef(null);
 
