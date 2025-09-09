@@ -148,7 +148,7 @@ export default function LuxuryFeatureSection() {
           style={{ backgroundSize: "200% 100%" }}
         />
         {/* Glossy shine sweep over the connecting line (every 4s) */}
-        <div className="pointer-events-none absolute left-3 right-3 top-8 h-[2px] overflow-visible">
+        <div className="pointer-events-none absolute left-3 right-3 top-8 h-[2px] overflow-visible z-20">
           <motion.div
             aria-hidden
             className="absolute -left-10 top-0 h-[2px] w-24 rounded-full"
