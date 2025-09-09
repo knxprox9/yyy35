@@ -200,7 +200,9 @@ export default function LuxuryFeatureSection() {
                 <div className="text-[10px] font-semibold text-slate-800 truncate">فئات متعددة</div>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <Node icon={Globe2} label="متوافقة عالميا مع أشهر المنصات والمواقع" desc="استخدام عالمي" color={colors.green} />
+                <div className="relative top-[1px]">
+                  <Node icon={Globe2} label="متوافقة عالميا مع أشهر المنصات والمواقع" desc="استخدام عالمي" color={colors.green} />
+                </div>
                 <div className="text-[10px] font-semibold text-slate-800 text-center leading-tight">
                   <span className="block">متوافقة عالميا</span>
                   <span className="block">مع أشهر المنصات والمواقع</span>
