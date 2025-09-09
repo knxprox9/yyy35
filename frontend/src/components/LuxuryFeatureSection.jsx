@@ -108,7 +108,7 @@ const Node = ({ icon: Icon, label, desc, color, backContent, size = "md" }) => {
             >
               {/* Front side */}
               <div className="absolute inset-0 flex items-center justify-center" style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}>
-                <Icon className={cn("w-4 h-4", color.icon)} />
+                <Icon className={cn(sizes.icon, color.icon)} />
               </div>
               {/* Back side - icon grid or text based on backContent */}
               <div className="absolute inset-0 grid place-items-center" style={{ transform: "rotateY(180deg) translateZ(1px)", backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", transformOrigin: "50% 50%" }}>
