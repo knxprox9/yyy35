@@ -196,7 +196,7 @@ export default function LuxuryFeatureSection() {
               {/* Three nodes */}
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Layers} label="فئات متعددة" desc="خيارات واسعة" color={colors.purple} backContent={[Wallet, ShoppingBag, Gamepad2]} size="lg" />
-                <div className="text-[11px] font-semibold text-slate-800 truncate">فئات متعددة</div>
+                <div className="text-[10px] font-semibold text-slate-800 truncate">فئات متعددة</div>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Globe2} label="عالمي" desc="استخدام عالمي" color={colors.green} />
