@@ -200,7 +200,7 @@ export default function LuxuryFeatureSection() {
               </div>
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Globe2} label="عالمي" desc="استخدام عالمي" color={colors.green} />
-                <div className="text-[11px] font-semibold text-slate-800 truncate">عالمي</div>
+                <div className="text-[10px] font-semibold text-slate-800 truncate">عالمي</div>
               </div>
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Sparkles} label="باقات" desc="خطط مرنة" color={colors.orange} />
