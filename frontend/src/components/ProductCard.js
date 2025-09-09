@@ -713,7 +713,7 @@ const StyledWrapper = styled.div`
     border: 1px solid #cbd5e0;
     border-radius: 12px;
     padding: 12px;
-    padding-top: 16px; /* زيادة طفيفة لحماية الدوائر من ملامسة حد المربع العلوي */
+    padding-top: 18px; /* زيادة طفيفة إضافية لحماية الدوائر من ملامسة حد المربع العلوي */
     margin-bottom: 0.9rem;
     margin-left: -20px;
     margin-right: -20px;
