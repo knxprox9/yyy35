@@ -102,9 +102,19 @@ const Node = ({ icon: Icon, label, desc, color, backContent }) => {
               <div className="absolute inset-0 flex items-center justify-center" style={{ backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden" }}>
                 <Icon className={cn("w-4 h-4", color.icon)} />
               </div>
-              {/* Back side - perfectly horizontal text */}
+              {/* Back side - icon grid or text based on backContent */}
               <div className="absolute inset-0 grid place-items-center" style={{ transform: "rotateY(180deg) translateZ(1px)", backfaceVisibility: "hidden", WebkitBackfaceVisibility: "hidden", transformOrigin: "50% 50%" }}>
-                <span className="text-[10px] leading-none text-center font-semibold text-slate-800">{desc}</span>
+                {backContent ? (
+                  <div className="grid grid-cols-3 gap-[2px] items-center justify-center">
+                    {backContent.map((Item, idx) => (
+                      <div key={idx} className="flex items-center justify-center">
+                        <Item className="w-3.5 h-3.5 text-slate-800" />
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <span className="text-[10px] leading-none text-center font-semibold text-slate-800">{desc}</span>
+                )}
               </div>
             </motion.div>
           </div>
