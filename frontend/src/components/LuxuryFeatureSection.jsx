@@ -184,7 +184,7 @@ export default function LuxuryFeatureSection() {
         <div className="relative z-10">
           <div className="relative h-20 px-2">
             <div
-              className="absolute left-3 right-3 top-8 h-px rounded-full"
+              className="absolute left-4 right-4 top-8 h-px rounded-full"
               style={{
                 backgroundImage:
                   "linear-gradient(to right, rgb(56,189,248), rgb(139,92,246), rgb(16,185,129), rgb(249,115,22))",
