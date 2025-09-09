@@ -213,7 +213,7 @@ export default function LuxuryFeatureSection() {
 
       {/* Secondary Row - align columns under Nodes */}
       <div className="mt-3">
-        <div className="px-3 grid grid-cols-3 gap-4 items-start">
+        <div className="px-3 grid grid-cols-2 gap-4 items-start">
           {/* Column under "فئات متعددة" */}
           <div className="flex flex-col items-center gap-2">
             <GlassTile icon={Wallet} label="مالية" color={colors.blue} />
