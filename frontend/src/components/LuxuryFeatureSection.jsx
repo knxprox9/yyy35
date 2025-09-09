@@ -147,13 +147,20 @@ export default function LuxuryFeatureSection() {
           transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           style={{ backgroundSize: "200% 100%" }}
         />
-        {/* Animated shimmer line across rail (blue -&gt; purple -&gt; green -&gt; orange) */}
-        <motion.div
-          className="pointer-events-none absolute left-3 right-3 top-8 h-[2px] rounded-full opacity-50 bg-gradient-to-r from-sky-400 via-violet-400 via-50% to-orange-400"
-          animate={{ backgroundPositionX: ["0%", "120%", "0%"] }}
-          transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-          style={{ backgroundSize: "200% 100%" }}
-        />
+        {/* Glossy shine sweep over the connecting line (every 4s) */}
+        <div className="pointer-events-none absolute left-3 right-3 top-8 h-[2px] overflow-visible">
+          <motion.div
+            aria-hidden
+            className="absolute -left-10 top-0 h-[2px] w-24 rounded-full"
+            style={{
+              background:
+                "linear-gradient(90deg, rgba(255,255,255,0), rgba(255,255,255,0.95), rgba(255,255,255,0))",
+              mixBlendMode: "screen"
+            }}
+            animate={{ x: ["-10%", "110%"] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          />
+        </div>
 
         {/* Feature Rail */}
         <div className="relative z-10">
