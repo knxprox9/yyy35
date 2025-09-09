@@ -203,7 +203,9 @@ export default function LuxuryFeatureSection() {
                 <div className="text-[10px] font-semibold text-slate-800 truncate">عالمي</div>
               </div>
               <div className="flex flex-col items-center gap-1">
-                <Node icon={Sparkles} label="باقات" desc="خطط مرنة" color={colors.orange} />
+                <div className="relative top-[3px]">
+                  <Node icon={Sparkles} label="باقات" desc="خطط مرنة" color={colors.orange} />
+                </div>
                 <div className="text-[10px] font-semibold text-slate-800 truncate">باقات</div>
               </div>
             </div>
