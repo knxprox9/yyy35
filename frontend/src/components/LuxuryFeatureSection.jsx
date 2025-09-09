@@ -116,7 +116,7 @@ const Node = ({ icon: Icon, label, desc, color, backContent, size = "md" }) => {
                   <div className="grid grid-cols-3 gap-[2px] items-center justify-center">
                     {backContent.map((Item, idx) => (
                       <div key={idx} className="flex items-center justify-center">
-                        <Item className="w-3.5 h-3.5 text-slate-800" />
+                        <Item className={cn(sizes.backIcon, "text-slate-800")} />
                       </div>
                     ))}
                   </div>
