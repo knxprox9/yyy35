@@ -196,7 +196,7 @@ export default function LuxuryFeatureSection() {
             <div className="absolute left-4 right-4 top-8 -translate-y-1/2 grid grid-cols-2 gap-6 justify-between pointer-events-none">
               {/* Three nodes */}
               <div className="flex flex-col items-center gap-1">
-                <Node icon={Layers} label="فئات متعددة" desc="خيارات واسعة" color={colors.purple} backContent={[Wallet, ShoppingBag, Gamepad2]} size="lg" />
+                <Node icon={Layers} label="فئات متعددة" desc="خيارات واسعة" color={colors.purple} backContent={[Wallet, ShoppingBag, Gamepad2]} size="xl" />
                 <div className="text-[10px] font-semibold text-slate-800 truncate">فئات متعددة</div>
               </div>
               <div className="flex flex-col items-center gap-1">
