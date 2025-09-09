@@ -193,7 +193,7 @@ export default function LuxuryFeatureSection() {
                 WebkitMaskImage: "linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%)"
               }}
             />
-            <div className="absolute left-4 right-4 top-8 -translate-y-1/2 grid grid-cols-2 gap-6 justify-between pointer-events-none">
+            <div className="absolute left-4 right-4 top-8 -translate-y-1/2 grid grid-cols-2 gap-6 justify-between pointer-events-none items-start">
               {/* Three nodes */}
               <div className="flex flex-col items-center gap-1">
                 <Node icon={Layers} label="فئات متعددة" desc="خيارات واسعة" color={colors.purple} backContent={[Wallet, ShoppingBag, Gamepad2]} size="xl" />
