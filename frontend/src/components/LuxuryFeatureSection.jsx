@@ -170,6 +170,8 @@ export default function LuxuryFeatureSection() {
               style={{
                 backgroundImage:
                   "linear-gradient(to right, rgb(56,189,248), rgb(139,92,246), rgb(16,185,129), rgb(249,115,22))",
+                maskImage: "linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%)",
+                WebkitMaskImage: "linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%)"
               }}
             />
             <div className="absolute left-3 right-3 top-8 -translate-y-1/2 grid grid-cols-3 gap-5">
